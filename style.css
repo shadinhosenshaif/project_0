@@ -1,0 +1,196 @@
+/* header section */
+
+.logo-section{
+    display: none;
+}
+.header-section img{
+    width: 100%;
+    height: auto;
+}
+.main-menu{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    margin-top: 20px;
+}
+.main-menu ul li{
+    margin: 0 25px;
+}
+.main-menu ul li a{
+    text-transform: uppercase;
+    color: #4d4959;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    letter-spacing: 1.6px;
+    font-weight: 700;
+}
+/*=========> intro section css >======= */
+.big-small, 
+.small-big, 
+.sami-section {
+    max-height: 485px;
+    overflow: hidden;
+}
+.intro-section{
+    padding: 100px 0;
+}
+.bg{
+    background: #f5f7f7;
+}
+.section h2{
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 3em;
+}
+.content {
+    width: 71%;
+    display: block;
+    margin: auto;
+    color: #848789;
+    font-size: 15px;
+    line-height: 2em;
+}
+/* ========> intro section end >======= */
+
+/* =========> description section css start >====== */
+.big img:last-child{
+    width: 100%;
+}
+.big{
+    position: relative;
+
+}
+.descrip {
+    padding: 34px 0 40px;
+    
+}
+.descrip::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 50px;
+    margin: auto;
+    background: red;
+}
+.small{
+    background: url(images/small-img.jpg) no-repeat;
+    background-size: auto;
+    background-position: left bottom;
+    background-size: 100% auto;
+    min-height: 160px;
+}
+.small::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 9px 0 9px;
+    border-color: #ffff transparent transparent transparent;
+}
+.big img:first-child{
+    position: absolute;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.small-big .small{
+    background: url(images/black-sit.jpg) no-repeat;
+}
+.icon{
+    height: 27px;
+    width: 27px;
+    margin: auto;
+}
+.sami-section img{
+    width: 100%;
+}
+.sami-section .small{
+    background: url(images/frame.jpg) no-repeat;
+}
+/* ======> twitter section start ======= */
+.tweet .descrip::after{
+    display: none;
+}
+.tweet i{
+    color: #56c7ee;
+    font-size: 20px;
+}
+.tweet h2{
+    font-size: 18px;
+    margin: 15px 0;
+}
+.tweet span{
+    font-size: 14px;
+    color: #cccc;
+    margin-left: 10px;
+    font-weight: 400;
+}
+/* subscribe section css */
+.subscribe-section{
+    padding: 50px 0;
+    overflow: hidden;
+}
+.contact p{
+    color: #605f64;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin: 15px 0;
+}
+.contact form input{
+    padding: 10px ;
+   border: 1px solid #b5bbbe;
+   border-radius: 4px;
+}
+.contact form input[type='submit'] {
+    width: 55px;
+    background: #64C29E;
+    color: #ffff;
+    font-weight: 600;
+}
+/* footer section css start */
+.footer-section{
+    padding: 20px 30px;
+    
+}
+.footer-social a{
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    margin: 10px 8px;
+    border-radius: 50%;
+    line-height: 29px;
+    display: inline-block;
+    text-align: center;
+}
+.footer-social a:nth-child(1){
+    background: #78cdf0;
+}
+.footer-social a:nth-child(2){
+    background: #537bbd;
+}
+.footer-social a:nth-child(3){
+    background: #eb5755;
+}
+.copyright p{
+    font-family: 'Lato', sans-serif;
+    color: #605f64;
+    font-weight: 400;
+}
+.copyright{
+    float: right;
+    margin-top: 23px;
+}
+
+.menu-item{
+    transition: .3s;
+}
+.menu-link:hover .menu-item{
+    background: #64C29E;
+}
